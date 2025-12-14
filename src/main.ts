@@ -17,4 +17,4 @@ export async function run(): Promise<void> {
 }
 
 // auto-run when executed directly
-run()
+// run()
