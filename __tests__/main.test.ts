@@ -8,15 +8,15 @@ import {
 } from '@jest/globals'
 
 // import fixtures
-const core = await import('../__fixtures__/core.js')
-const github = await import('../__fixtures__/github.js')
+const core = await import('../__fixtures__/core')
+const github = await import('../__fixtures__/github')
 
 // mock ESM modules
 jest.unstable_mockModule('@actions/core', () => core)
 jest.unstable_mockModule('@actions/github', () => github)
 
 // import your action AFTER mocks
-const main = await import('../src/main.js')
+const main = await import('../src/main')
 
 describe('run()', () => {
   beforeEach(() => {
