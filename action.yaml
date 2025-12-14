@@ -1,5 +1,5 @@
-name: 'My JS Build Action'
-description: 'A JavaScript action with build step'
+name: 'My TS Build Action'
+description: 'A TypeScript action with build step'
 branding:
   icon: 'zap' # choose from GitHub icon set (https://icons.github.com/)
   color: 'blue' # blue, green, yellow, red, orange, purple, gray, black
